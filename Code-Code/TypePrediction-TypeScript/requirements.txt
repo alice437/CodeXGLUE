@@ -4,3 +4,4 @@ numpy==1.22.0
 torch==1.8.1
 tqdm==4.63.1
 transformers==4.17.0
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
