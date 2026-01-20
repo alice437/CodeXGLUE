@@ -1,6 +1,8 @@
 accelerate==0.5.1
 datasets==1.18.4
 numpy==1.22.0
-torch==1.8.1
+torch==2.9.0
 tqdm==4.63.1
 transformers==4.17.0
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
